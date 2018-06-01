@@ -1,14 +1,21 @@
 body {
 	text-align: center;
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
 }
 
 a {
 	text-decoration: none;
 	font-family: Raleway;
-	color: #F15B31;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
+	margin: 0 20px;
 }
 
 h1, h2, h3, a {
@@ -17,10 +24,10 @@ h1, h2, h3, a {
 
 h1 {
 	font-family: Raleway;
-	color: #0D2C40;
 	font-weight: 400;
 	letter-spacing: 1px;
 	font-size: 45px;
+	margin: 0;
 }
 
 h2, h3 {
@@ -36,3 +43,22 @@ p {
 	line-height: 26px;
 	font-size: 18px;
 }
+
+nav {
+	background-color: #00A6B3;
+	padding: 20px 0;
+}
+
+nav a {
+	color: #FFFFFF;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px;
+}
+
